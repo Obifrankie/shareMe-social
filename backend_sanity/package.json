@@ -1,4 +1,6 @@
 {
+  "homepage": "https://Obifrankie.github.io/shareMe-social",
+
   "name": "",
   "private": true,
   "version": "1.0.0",
@@ -7,6 +9,8 @@
   "author": "JavaScript Mastery",
   "license": "UNLICENSED",
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "start": "sanity start",
     "build": "sanity build"
   },
